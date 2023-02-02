@@ -3,9 +3,9 @@ import { Carlist } from "./ApiCar";
 const App = () => {
     return (<>
         {
-            Carlist.map((p, index) => {
+            Carlist.map((car, index) => {
                 return (
-                    < Cars key={index} {...p} />
+                    < Cars key={index} car={car} />
                 )
 
 

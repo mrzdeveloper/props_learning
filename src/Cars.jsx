@@ -1,7 +1,6 @@
-
 const Cars = (props) => {
-
-    const { id, img, Name, type } = props;
+    { console.log(props) }
+    const { Name, id, img, type } = props.car;
     return (<>
         <div>
             <h1>{id}</h1>
